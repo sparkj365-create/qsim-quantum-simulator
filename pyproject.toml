@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qsim-quantum-simulator"
+version = "0.1.0"
+description = "State-vector quantum circuit simulator with Grover, QFT, Deutsch-Jozsa and teleportation"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.24"]
+
+[tool.setuptools]
+packages = ["qsim"]
